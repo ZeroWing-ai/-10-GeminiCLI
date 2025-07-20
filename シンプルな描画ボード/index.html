@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルな描画ボード</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>シンプルな描画ボード</h1>
+        <canvas id="drawing-board"></canvas>
+        <div class="controls">
+            <label for="color-picker">色:</label>
+            <input type="color" id="color-picker" value="#000000">
+            <label for="line-width">線の太さ:</label>
+            <input type="range" id="line-width" min="1" max="10" value="5">
+            <button id="clear-button">クリア</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
