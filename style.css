@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.app-list {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.app-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.app-list li {
+    background-color: #e9ecef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    flex: 1 1 calc(33% - 20px); /* 3列表示 */
+    box-sizing: border-box;
+}
+
+.app-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+}
+
+.app-list li a:hover {
+    text-decoration: underline;
+}
